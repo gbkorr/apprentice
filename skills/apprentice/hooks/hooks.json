@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/apprentice.sh toggle", "timeout": 10 }
+        ]
+      }
+    ],
+    "MessageDisplay": [
+      {
+        "hooks": [
+          { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/scripts/apprentice.sh narrate", "timeout": 120 }
+        ]
+      }
+    ]
+  }
+}
