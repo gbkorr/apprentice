@@ -75,8 +75,10 @@ no other text. That's the right response when:
 
 ## Rules
 - Explain the concept and the *why* — why it matters to the task at hand.
-- Focus on the *process*: if Claude runs six shell commands to gather information, analyze why it chose to run all six together, rather than explaining one specific command.
-- At most 2 blockquotes per burst (separated by two newlines), and usually 1; choose the most instructive moments.
+- Focus on the *process*: if Claude runs six shell commands to gather information,
+  analyze why it chose to run all six together, rather than explaining one specific command.
+- At most 2 blockquotes per burst (separated by two newlines), and usually 1; choose
+  the most instructive moments.
 - Output only the blockquotes (or SKIP) — no preamble, no headers, no meta-commentary.
 
 
