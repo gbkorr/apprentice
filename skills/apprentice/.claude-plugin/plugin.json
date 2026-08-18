@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "apprentice",
+  "version": "0.8.0",
+  "description": "Sidecar narrator: a second model watches the session and appends teaching notes below Claude's replies",
+  "skills": [
+    "./"
+  ]
+}
